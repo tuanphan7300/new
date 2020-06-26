@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script >
+//mảng
+        //khai bao mang
+        // var arr = [10,3.14,"HTML"];
+        // //duyet mang for in
+        // for (x in arr) {        
+        //     document.write(arr[x]+'<br/>');//in ra các phần tử trong mảng
+        // }
+
+
+
+//====hàm
+        // function tinhTong(){
+        //     var st1 = 5
+        //     var st2 = 10
+        //     var st3 = st1 +st2 
+        //     document.write(st3)
+        // }
+        // //sử dụng hàm
+        // tinhTong()
+
+
+    //hàm tự định nghĩa có tham số truyền vào
+        // function tinhTong(st1,st2){
+        //         var st3 = st1 +st2 
+        //         document.write(st3)
+        //     }
+        // tinhTong(50,150)
+
+
+    //hàm tự định nghĩa có giá trị trả về
+        // function tinhTong(st1,st2){
+        //         var st3 = st1 +st2 
+        //         return st3
+        //     }
+        // document.write(tinhTong(50,100)+300)
+
+    //hàm tự định nghĩa có tham số mặc định,
+        // function tinhTong(st1=100,st2=900){
+        //             var st3 = st1 +st2 
+        //             return st3
+        //         }
+        //     document.write(tinhTong()+300)
+
+    
+
+
+//=====ES6
+
+    //===javascript let, khai báo biến chỉ tồn tại trong cặp {}, bên ngoài koong có tác dụng
+            // if(!a){
+            //     let a = 100
+            // }
+            // document.write(a);
+
+    //===javacript const,---hằng số.
+        // const pi = 3.14
+        // var pi = 10
+        // document.write(pi)
+
+    //===Arrow Functions
+        //ES5
+            // var   tinhTong =  function(st1,st2){
+            //         return st1+st2
+            //     }
+            //     document.write(tinhTong(10,5))
+        //ES6
+            // var tinhTong = (st1,st2)=>{
+            //     return st1+ st2
+            // }
+            // document.write(tinhTong(10,5))
+
+    //===HTML template String
+        var home = 'Trang chủ'
+        var menu = `
+        <ul>
+        <li>${home}</li>
+        <li>about</li>
+        </ul>`
+        document.write(menu)
+
+    //===
+    </script>
+</body>
+</html>

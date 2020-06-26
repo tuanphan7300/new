@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var tinhTong = (st1,st2)=>{
+            kq = st1+st2
+            return kq}
+        document.write(tinhTong(12,13)+'<br/>')
+
+        var tinhTong2 = (sd1,sd2)=>{
+            kq2 = sd1 * sd2
+            return kq2;
+        }
+        document.write(tinhTong2(10,20)+'<br/>')
+        var tinhTong3 = (x1,x2)=>{
+            return x1+x2
+        }
+        document.write(tinhTong3(tinhTong(12,13),tinhTong2(10,20)))
+        var home = 'Trang chu'
+        var menu = `
+        <ul>
+        <li>${home}</li>
+        <li>page</li>
+        </ul>
+        `
+        document.write(menu)
+    </script>
+</body>
+</html>
